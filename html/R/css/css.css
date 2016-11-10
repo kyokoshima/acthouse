@@ -1,0 +1,79 @@
+div {
+	width: 100px;
+	height: 100px;
+	background-color: aqua;
+	float: left;
+}
+hr {
+	clear: both;
+}
+#radius1 {
+	border-radius: 10px;
+}
+#radius2 {
+	border-radius: 50px;
+}
+#radius3 {
+	height: 50px;
+	border-radius: 50%;
+}
+#radius4 {
+	border-radius: 10px 20px 30px 40px;
+}
+#radius5 {
+	border-radius: 30px 30px 0 0;
+}
+#radius6 {
+	border-radius: 30px 0 0 30px;
+	background-color: pink;
+}
+#radius7 {
+	border-radius: 0 30px 30px 0;
+	background-color: red;
+}
+#radius8 {
+	border-radius: 10px 20px 30px 40px / 30px 40px 50px 60px;
+}
+#radius9 {
+	border-top-left-radius: 30px;
+	border-bottom-right-radius: 40px;
+}
+#radius10 {
+	background-color: gold;
+	background: radial-gradient(
+			ellipse at 70% 25%, 
+			rgba(252,234,187,1) 0%,
+			rgba(252,205,77,1) 20%,
+			rgba(248,181,0,1) 50%,rgba(249,179,0,1) 100%);
+	border-radius: 50%;
+	position: relative;
+}
+.num {
+	width: 50%;
+	height: 50%;
+	border-radius: 50%;
+	background-color: white;
+	color: black;
+	font-weight: bold;
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	text-align: center;
+	font-size: 2em;
+	line-height: 1.8em;
+}
+#box-shadow {
+	width: 50%;
+	height: 50px;
+	background-color: lightgreen;
+	box-shadow: 5px 5px 10px #000;
+	margin-bottom: 24px;
+}
+h1#title {
+	color: aqua;
+	font-size: 3em;
+	text-shadow: 
+		0px 0px 2px aqua, 
+		5px 5px 5px red,
+		8px 8px 8px yellow;
+}

@@ -1,0 +1,148 @@
+body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	color: #666666;
+	font-family: Arial, sans-serif;
+/*	line-height: 18px;*/
+	/*background: #9f737c;*/
+	/*background: url(../images/pattern.jpg);*/
+	background: linear-gradient(#ffff99, #ff0000);
+}
+div {
+	color: #666666;
+	width: 500px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	overflow: hidden;
+}
+a {
+	/*font-size: 150%;*/
+	font-weight: bold;
+	color: #ff6666;
+	text-decoration: none;
+}
+/*a:link {
+	color: green;
+}
+a:visited {
+	color: red;
+}*/
+a:hover {
+	color: #9900ff;
+	text-decoration: underline;
+	/*font-style: italic;*/
+}
+/*a:active {
+	color: blue;
+}*/
+#container {
+	width: 960px;
+	margin: 0 auto;
+	padding: 30px;
+	background: #ffffff;
+}
+div.main {
+	width: 70%;
+	float: left;
+}
+div.sidebar {
+	width: 30%;
+	float: left;
+}
+header {
+	padding: 30px;
+	background: #333333;
+	color: #ffffff;
+	background: -webkit-linear-gradient(275deg, #fcc, #cf6, #3cc, #006);
+	background: -moz-linear-gradient(275deg, #fcc, #cf6, #3cc, #006);
+	background: -ms-linear-gradient(275deg, #fcc, #cf6, #3cc, #006);
+	background: linear-gradient(275deg, #fcc, #cf6, #3cc, #006);
+}
+footer {
+	font: bold 80%/1em;
+	color: #ffffff;
+	text-align: center;
+	padding: 10px;
+	background: #000000;
+	background: radial-gradient(circle at center, #9ff 20%, #9f0 40%, #ff9 100%);
+}
+h1 {
+	font-weight: bold;
+	font-size: 240%;
+}
+header h1 a {
+	color: white;
+}
+span {
+	color: #009900;
+}
+h1 {
+	color: #660000;
+	font-size: 30px;
+}
+h2 {
+	clear: both;
+}
+img {
+	float: left;
+	margin-right: 10px;
+	max-height: 200px;
+	border-style: none;
+}
+
+.btn {
+	display: inline-block;
+}
+.btn a {
+	background: url(../images/button.gif) no-repeat left top;
+	width: 140px;
+	height: 36px;
+	display: block;
+	color: #ffffff;
+	font-size: 15px;
+	line-height: 36px;
+	text-align: center;
+}
+.btn a:hover {
+	background: url(../images/button.gif) no-repeat right top;
+}
+dl {
+	text-align: center;
+}
+dl.sidemenu {
+	margin: 0;
+	padding: 0 0 5px;
+	background: #dff4e7;
+	width: 240px;
+}
+dl.sidemenu dt {
+	background: url(../images/dt_bg.jpg) repeat-x;
+	height: 32px;
+	width: 240px;
+	font-size: 15px;
+	line-height: 32px;
+	font-weight: bold;
+	color: #fff;
+	text-indent: 0.7em;
+	margin-bottom: 5px;
+}
+dl.sidemenu dd {
+	font-size: 12px;
+	line-height: 18px;
+	height: 18px;
+	text-indent: 0.7em;
+	margin: 0;
+	padding-bottom: 5px;
+}
+dl.sidemenu dd a {
+	color: #666;
+	background: url(../images/dd_bg.gif) no-repeat 0px 0px;
+	text-decoration: none;
+	padding-left: 14px;
+}
+dl.sidemenu dd a:hover {
+	color: #f90;
+	background: url(../images/dd_bg.gif) no-repeat 2px 0px;
+}

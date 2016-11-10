@@ -1,0 +1,139 @@
+body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	color: #666666;
+	font-family: Arial, sans-serif;
+	line-height: 18px;
+	/*background: #9f737c;*/
+	/*background: url(../images/pattern.jpg) repeat-x;*/
+  background: linear-gradient(to right, #ff9 0%,#9c0 50%);
+}
+ul {
+	list-style: square;
+}
+li {
+	display: inline-block;
+}
+div#header-inner {
+	width: 960px;
+	margin: 0 auto;
+}
+div#container {
+	width: 960px;
+	margin: 0 auto;
+	padding: 30px;
+	background: #ffffff;
+	overflow: hidden;
+}
+div#main {
+	width: 70%;
+	float: left;
+}
+
+div#sidebar {
+	width: 30%;
+	float: left;
+}
+
+header {
+	padding: 30px;
+	/*background: #333333;*/
+	color: #ffffff;
+	background: 
+		radial-gradient(ellipse farthest-corner at center, #ff0 0%, #0ff 100%);
+}
+footer {
+	clear: both;
+	font: bold 80%/1em Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	text-align: center;
+	padding: 10px;
+	background: #000000;
+}
+h1 {  
+	font-weight: bold;
+	font-size: 240%;
+}
+p {
+	color: #666;
+}
+img {
+	width: 200px;
+	float: left;
+	margin-right: 20px;
+	border: silver 5px ridge;
+}
+
+/*		a:link {
+	color: green;
+}
+a:visited {
+	color: yellow;
+}*/
+a:hover {
+	color: #9900FF;
+	text-decoration: underline;
+	font-style: italic;
+}
+/*		a:active {
+	color: silver;
+}*/
+a {
+	font-size: 150%;
+	font-weight: bold;
+	color: #ff6666;
+	text-decoration: none;
+	outline: 0;
+}
+.btn {
+	display: inline-block;
+}
+.btn a {
+	background: url(../images/button.gif) no-repeat left top;
+	width: 140px;
+	height: 36px;
+	display: block;
+	color: #ffffff;
+	font-size: 15px;
+	line-height: 36px;
+	text-align: center;
+	font-style: normal;
+}
+.btn a:hover {
+	background: url(../images/button.gif) no-repeat right top;
+}
+
+dl.sidemenu {
+	margin: 0px;
+	padding: 0px 0px 5px;
+	background: #dff4e7;
+	width: 240px;
+}
+dl.sidemenu dt {
+	background: url(../images/dt_bg.jpg) repeat-x;
+	height: 32px;
+	width: 240px;
+	font-size: 15px;
+	line-height: 32px;
+	font-weight: bold;
+	color: #fff;
+	text-indent: 0.7em;
+	margin-bottom: 5px;
+}
+dl.sidemenu dd {
+	font-size: 12px;
+	line-height: 18px;
+	height: 18px;
+	text-indent: 0.7em;
+	margin: 0;
+	padding-bottom: 5px;
+}
+dl.sidemenu dd a {
+	color: #666;
+	text-decoration: none;
+	padding-left: 14px;
+}
+dl.sidemenu dd a:hover {
+	color: #f90;
+}

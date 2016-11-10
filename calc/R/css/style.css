@@ -1,0 +1,39 @@
+#news {
+  width: 500px;
+  height: 40px;
+  background: rgba(0,0,0,0.5);
+  position: absolute;
+  z-index: 1;
+  display: none;
+}
+
+#calc {
+	width: 20%;
+	min-width: 300px;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+}
+#last-answer {
+	background-color: khaki;
+	/*width: 30px;*/
+	height: 30px;
+	position: absolute;
+	top: 6px;
+	left: 20px;
+	/*opacity: 0;*/
+	display: none;
+}
+#calc .result {
+	width: 85%;
+	font-size: xx-large;
+	text-align: right;
+	padding-right: 0.3em;
+}
+#calc button {
+	width: 20%;
+	font-size: x-large;
+}
+#calc button:empty {
+	opacity: 0;
+}
