@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>フォーム</title>
+</head>
+<body>
+	<h1>お問い合わせ</h1>
+	<form action="" method="post" enctype="multipart/form-data">
+		<fieldset>
+			<legend>お名前</legend>
+			<input type="text" name="name" value="" placeholder="名前を入力してください">
+		</fieldset>
+		<div>
+			<label for="store">好きなショッピングモールはどこですか</label>
+			<input type="text" name="store" list="stores">
+			<datalist id="stores">
+				<option value="アヤラモール"></option>
+				<option value="SMモール"></option>
+				<option value="SMシーサイド"></option>
+				<option value="Jセンターモール"></option>
+			</datalist>
+		</div>
+		<div>
+			<label for="password">好きなパスワードはなんですか</label>
+			<input type="password" name="password">
+		</div>
+		<div>
+			<label for="gender">性別はなんですか</label>
+			<input type="radio" name="gender" value="男">男
+			<input type="radio" name="gender" value="女">女
+			<input type="radio" name="gender" value="不明">不明
+		</div>
+		<div>
+			<label for="know">どのようにこのサイトを知りましたか</label>
+			<input type="checkbox" name="know" value="新聞・雑誌の広告">新聞・雑誌の広告
+			<input type="checkbox" name="know" value="通りすがり">通りすがり
+			<input type="checkbox" name="know" value="友人から">友人から
+			<input type="checkbox" name="know" value="インターネット">インターネット
+			<input type="checkbox" name="know" value="その他">その他	
+		</div>
+		<div>
+			<label for="upload">写真を添付してください</label>
+			<input type="file" name="upload">
+		</div>
+		<div>
+			<label for="pref">好きな都道府県はなんですか？</label>
+			<select name="pref">
+				<optgroup label="関東地方">
+					<option value="東京都">東京都</option>
+					<option value="神奈川県">神奈川県</option>
+				</optgroup>
+				<optgroup label="関西地方">
+					<option value="大阪府">大阪府</option>
+					<option value="兵庫県">兵庫県</option>	
+				</optgroup>
+				<optgroup label="甲信越地方">
+					<option value="新潟県">新潟県</option>
+					<option value="富山県">富山県</option>
+				</optgroup>
+			</select>
+		</div>
+		<div>
+			<label for="impression">感想を入力してください</label>
+			<textarea name="impression" rows="10" cols="30" placeholder="感想を入力してください"></textarea>
+		</div>
+		<!-- <input type="submit" value="送ります"> -->
+		<button>
+		<span style="color:red">送信</span></button>
+	</form>
+</body>
+</html>

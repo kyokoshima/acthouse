@@ -1,28 +1,32 @@
 * {
 	margin: 0;
 	padding: 0;
+	color: #555;
 }
 
 body {
+	background-color: #fdf6dd;
 	/*background-color: mistyrose;
 	background-image: url(../images/bg.jpg);
 	background-repeat: repeat;
 	background-position: left top;*/
-	background: mistyrose url(../images/bg.jpg) repeat left top;
+	/*background: mistyrose url(../images/bg.jpg) repeat left top;*/
 }
 
 div {
-	color: #666;
+	/*color: #666;*/
 	/*width: 500px;*/
 /*	margin-top: 20px;
 	margin-right: auto;
 	margin-left: auto;
 */	margin: 20px auto 0;
-	background: linear-gradient(white 0%, yellow 100%);
+	/*background: linear-gradient(white 0%, yellow 100%);*/
+	background-color: #linen;
 }
 #container {
 	width: 1180px;
 	overflow: hidden;
+	border-radius: 10px;
 }
 #menu {
 	width: 30%;
@@ -51,15 +55,25 @@ img {
 h2 {
 	clear: left;
 }
+h1, h2 {
+	margin-bottom: 24px;
+	text-shadow: 300px 0px 0;
+}
 article {
 	margin-bottom: 24px;
 	/*background-color: linen;*/
 	overflow: hidden;
-	background: radial-gradient(circle closest-side at 80% 30%, white 0%, white 10%, red 100%);
-
+		/*background: radial-gradient(circle closest-side at 80% 30%, white 0%, white 10%, red 100%);*/
+	background-color: #e5ce7e;
+	border-radius: 5px;
+	padding: 24px;
+/*	border-top-left-radius: 100px;
+	border-bottom-left-radius: 50px;*/
+	box-shadow: 5px 5px 5px gray;
 }
 header {
-	background-color: seashell;
+	/*background-color: seashell;*/
+	box-shadow: 3px 3px 3px gray;
 }
 header ul li {
 	/*float: left;*/
@@ -72,6 +86,7 @@ footer {
 header, footer{
 	text-align: center;
 	padding: 12px;
+	background-color: #b7b3a3;
 }
 table th, table td {
 	border: 1px solid gray;
