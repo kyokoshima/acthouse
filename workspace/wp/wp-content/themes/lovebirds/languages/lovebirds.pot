@@ -1,0 +1,60 @@
+# Copyright (C) 2015 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Lovebirds 1.1.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/theme/lovebirds\n"
+"POT-Creation-Date: 2015-02-25 04:31:49+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: footer.php:17
+msgid "A Semantic Personal Publishing Platform"
+msgstr ""
+
+#: footer.php:17
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: footer.php:18
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: header.php:45
+msgid "Menu"
+msgstr ""
+
+#: header.php:46
+msgid "Skip to content"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+#: wp-content/themes/pub/lovebirds/style.css
+msgid "Lovebirds"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+#: wp-content/themes/pub/lovebirds/style.css
+msgid "https://wordpress.com/themes/lovebirds/"
+msgstr ""
+
+#. Description of the plugin/theme
+#: wp-content/themes/pub/lovebirds/style.css
+msgid ""
+"A sweet wedding theme to help you organize all the important details before "
+"the big day."
+msgstr ""
+
+#. Author of the plugin/theme
+#: wp-content/themes/pub/lovebirds/style.css
+msgid "Automattic"
+msgstr ""
+
+#. Author URI of the plugin/theme
+#: wp-content/themes/pub/lovebirds/style.css
+msgid "https://wordpress.com/themes/"
+msgstr ""

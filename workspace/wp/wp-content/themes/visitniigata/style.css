@@ -1,0 +1,36 @@
+/*
+Theme Name: Visit Niigata
+Theme URI: http://github.com/kyokoshima
+Author: Kenichi Yokoshima
+Author URI: http://github.com/kyokoshima
+Description: 新潟について語る
+Version: 1.0
+Tags: black, one-column, two-columns, right-sidebar, fixed-layout, responsive-layout, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.top {
+	width: 100%;
+	height: 300px;
+	background-image: url(top.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.top .inner {
+	text-align: center;
+	padding-top: 5%;
+}
+
+.top h2 {
+	font-size: 5em;
+	margin-bottom: 24px;
+}
+
+.top p {
+	font-size: .9em;
+}

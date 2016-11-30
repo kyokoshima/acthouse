@@ -1,0 +1,7 @@
+.top {
+	width: 100%;
+	background-image: url(../img/top.jpg);
+	height: 200px;
+	background-size: cover;
+	background-position: center bottom;
+}

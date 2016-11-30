@@ -1,0 +1,41 @@
+# Translation of Lovebirds in Esperanto
+# This file is distributed under the same license as the Lovebirds package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-01-08 17:29:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Lovebirds\n"
+
+#. Author URI of the plugin/theme
+#: wp-content/themes/pub/lovebirds/style.css
+msgid "https://wordpress.com/themes/"
+msgstr "https://wordpress.com/themes/"
+
+#. Description of the plugin/theme
+#: wp-content/themes/pub/lovebirds/style.css
+msgid "A sweet wedding theme to help you organize all the important details before the big day."
+msgstr "Dolĉa geedziĝo-etoso por helpi al vi organizi ĉiujn gravajn detalojn antaŭ la granda tago."
+
+#: header.php:46
+msgid "Skip to content"
+msgstr "Iri rekte al enhavo"
+
+#: header.php:45
+msgid "Menu"
+msgstr "Menuo"
+
+#: footer.php:18
+msgid "Theme: %1$s by %2$s."
+msgstr "Etoso: %1$s de %2$s."
+
+#: footer.php:17
+msgid "Proudly powered by %s"
+msgstr "Fiere kreata de %s"
+
+#: footer.php:17
+msgid "A Semantic Personal Publishing Platform"
+msgstr "Semantika ilo por persona publikigado"
