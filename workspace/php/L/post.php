@@ -20,17 +20,24 @@
 			// 編集時はidが$_POSTで送られてきているので$idをそのまま使う
 		}
 
-		
-		$path = "uploads/${id}";
-		mkdir($path, 0777, true);
 		$image = $_FILES['image'];
-		$image_name = $image['name'];
-		$image_type = $image['type'];
-		$image_path = "${path}/${image_name}";
-		move_uploaded_file($image['tmp_name'], $image_path);
-		$sql = "update posts set image_path = ?, image_type = ? where id = ?";
-		$params = array($image_path, $image_type, $id);
-		$success = get_db()->prepare($sql)->execute($params);
+		if($image['error'] == 0) {
+			$path = "uploads/${id}";
+			@mkdir($path, 0777, true);
+			
+			$image_name = $image['name'];
+			$image_type = $image['type'];
+			$image_path = "${path}/${image_name}";
+			move_uploaded_file($image['tmp_name'], $image_path);
+			$sql = "update posts set image_path = ?, image_type = ? where id = ?";
+			$params = array($image_path, $image_type, $id);
+			$success = get_db()->prepare($sql)->execute($params);
+		}
+
+		if (isset($_POST['draft'])) {
+			$sql = "update posts set status = 'draft' where id = ${id}";
+			get_db()->query($sql);
+		}
 	?>
 	<p>投稿されました</p>
 	<a href="index.php">TOPへ戻る</a>
