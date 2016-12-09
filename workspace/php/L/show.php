@@ -6,6 +6,16 @@
 	?>
 	<article>
 		<div>
+			<?php
+				$likes = $post['likes'];
+				if ($likes == 0) : ?>
+					<p>いいね！はまだありません</p>
+				<?php else : ?>
+					<p><?php echo $post['likes']; ?>回いいね！されています。</p>
+				<?php endif; ?>
+			<a href="like.php?id=<?php echo $id; ?>" class="btn btn-info">いいね!</a>
+		</div>
+		<div>
 			タイトル: <h2><?php echo $post['title']; ?></h2>
 		</div>
 		<div>

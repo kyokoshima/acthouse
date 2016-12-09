@@ -4,7 +4,7 @@
 	$post = get_post($id);
 
 	$image_path = $post['image_path'];
-	if (empty($image_path) or !file_exists($image_path) or ends_with($image_path)){
+	if (!is_valid_image($image_path)){
 		// $image_pathが空または
 		// $image_pathに指定したファイルが存在しない場合
 		$image_path = "img/noimage.png";
@@ -19,8 +19,5 @@
 	header("Content-Type: ${image_type}");
 	echo file_get_contents($image_path);
 
-	function ends_with($str) {
-		$end = substr($str, strlen($str) - 1);
-		return $end == '/';
-	}
+
 ?>

@@ -18,15 +18,20 @@
 		if ($offset < 0) {
 			$offset = 0;
 		}
-		$sql = "select * from posts where status != 'draft' limit ${limit} offset ${offset}";
+		$sql = "select * from posts where status != 'draft' order by created_at desc limit ${limit} offset ${offset}";
 
 		$stmt = get_db()->query($sql);
 		return $stmt;
 	}
 
+	function get_all_posts() {
+		$sql = "select * from posts order by created_at desc";
+		return get_db()->query($sql);
+	}
+
 	function get_drafts($offset) {
 		$limit = get_limit();
-		$sql = "select * from posts where status = 'draft' limit ${limit} offset ${offset}";
+		$sql = "select * from posts where status = 'draft' order by created_at desc limit ${limit} offset ${offset}";
 		return get_db()->query($sql);
 	}
 
@@ -50,6 +55,18 @@
 		$url = "${url}${qs}";
 		$tag = "<a href='${url}'>${label}</a>";
 		echo $tag;
+	}
+
+	function is_valid_image($image_path) {
+		return (
+			!empty($image_path) and 
+			file_exists($image_path) and 
+			!ends_with($image_path));
+	}
+
+	function ends_with($str) {
+		$end = substr($str, strlen($str) - 1);
+		return $end == '/';
 	}
 
 ?>
